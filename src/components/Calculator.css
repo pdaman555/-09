@@ -1,0 +1,101 @@
+.Calculator {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Calculator h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Calculator form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Calculator label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #555;
+}
+
+.Calculator input[type="number"],
+.Calculator input[type="text"],
+.Calculator input[type="email"],
+.Calculator select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Calculator fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Calculator fieldset legend {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+.Calculator input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.Calculator button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+}
+
+.Calculator button:hover {
+  background-color: #45a049;
+}
+
+.cost-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eef;
+  border: 1px solid #bbe;
+  border-radius: 5px;
+}
+
+.cost-result h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cost-result p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.cost-result input[type="email"] {
+  margin-top: 10px;
+  width: calc(100% - 20px);
+}
+
+.cost-result button {
+  margin-top: 10px;
+  background-color: #007bff;
+}
+
+.cost-result button:hover {
+  background-color: #0056b3;
+}
